@@ -1,0 +1,27 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: radial-gradient(ellipse at center, rgba(96,106,163,0.80) 0%,rgba(96,106,162,0.80) 1%,rgba(68,66,71,0.80) 100%), url("https://ubistatic-a.akamaihd.net/0058/prod/assets/images/season10-background.539bd615.jpg"); /* Chrome10-25,Safari5.1-6 */
+  background-size: cover, cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed, fixed;
+  height: 100%;
+  color: white;
+
+  //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80606aa3', endColorstr='#80444247',GradientType=1 );
+}
+
+.container {
+  margin-top: 30px;
+  //border: 1px solid #6E6E6E;
+  box-shadow: 4px 4px 63px -4px rgba(28,28,31,0.53);
+  background: #2F323A;
+  min-height: 500px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+
